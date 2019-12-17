@@ -1,0 +1,43 @@
+body {
+  background-color: #bdbdbd;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.container {
+  width: 400px;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 2px;
+  background-color: #1b1717;
+}
+#title-game,
+#gameover-pic,
+#youwin-pic {
+  display: block;
+  margin: 0 auto;
+}
+
+#currentWord {
+  letter-spacing: 10px;
+}
+
+#keyPressPlayAgain,
+#gameover-pic,
+#youwin-pic {
+  display: none;
+}
+.gameplay-area {
+  padding-top: 2px;
+  border: 1px #acc2f0 solid;
+  border-radius: 12dfpx;
+  text-align: center;
+  margin-top: 1px;
+  min-height: 250px;
+}
